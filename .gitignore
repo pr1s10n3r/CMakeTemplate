@@ -1,3 +1,4 @@
+# Add your third party dependencies here
 vendor/Qt5
 
 # Created by https://www.toptal.com/developers/gitignore/api/clion,clion+all,clion+iml,cmake,linux,windows,macos,emacs,vim,qt,qtcreator
@@ -13,6 +14,7 @@ vendor/Qt5
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/codeStyles
 
 # AWS User-specific
 .idea/**/aws.xml
