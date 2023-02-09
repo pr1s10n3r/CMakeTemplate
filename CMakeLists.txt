@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.24)
+project(Sandbox VERSION 1.0.0 LANGUAGES CXX)
+
+set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/vendor)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+find_package(Qt5 COMPONENTS Core REQUIRED)
+
+set(EXAMPLE_CORE_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/src/CoreExample)
+
+add_subdirectory(src)
